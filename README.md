@@ -4,7 +4,7 @@ This is a task management dashboard built with React, Redux, and Material-UI.
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/YOUR_USERNAME/task-manager-dashboard.git
+git clone: https://github.com/Yuktisingh2005/Task-Management-
 
 2. Navigate to the project directory:
 
