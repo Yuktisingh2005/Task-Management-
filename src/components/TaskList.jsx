@@ -12,7 +12,7 @@ const TaskList = () => {
   const today = new Date().toISOString().split('T')[0];
 
   const filteredTasks = tasks.filter((task) => {
-    // Filter by status (Completed, Pending, Overdue)
+   
     let statusFilter = false;
     switch (filter) {
       case 'Completed':
@@ -28,7 +28,6 @@ const TaskList = () => {
         statusFilter = true;
     }
 
-    // Filter by search term (title)
     const titleFilter = task.title.toLowerCase().includes(searchTerm.toLowerCase());
 
     return statusFilter && titleFilter;

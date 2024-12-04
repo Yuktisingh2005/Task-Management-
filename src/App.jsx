@@ -8,11 +8,11 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: `url('https://i.postimg.cc/Ls6nyZWR/image.png')`,  // Replace with the actual external image URL
+        backgroundImage: `url('https://i.postimg.cc/Ls6nyZWR/image.png')`,  
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
         backgroundAttachment: 'fixed',
-        minHeight: '100vh',  // Ensures it covers the full viewport height
+        minHeight: '100vh', 
       }}
     >
       <Container maxWidth="lg" sx={{ padding: 4 }}>

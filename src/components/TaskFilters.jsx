@@ -9,7 +9,7 @@ const TaskFilters = () => {
 
   const handleSearchChange = (e) => {
     setSearchTermState(e.target.value);
-    dispatch(setSearchTerm(e.target.value)); // Dispatch search term to the Redux store
+    dispatch(setSearchTerm(e.target.value));
   };
 
   return (
